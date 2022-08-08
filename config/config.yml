@@ -1,0 +1,40 @@
+# Configuration for pyping
+
+# -----------------------
+# CONFIG FOR EACH PING
+
+# Time between next ip in list (sec)
+PING_DELAY: 0
+
+# Number of pings to send to each ip
+PING_NUM: 1
+
+# Timeout in milliseconds to wait for each reply
+PING_TIMEOUT: 10
+
+# -----------------------
+# LOG CONFIG
+
+# Path to log folder
+LOG_FOLDER: 'log//'
+
+# -----------------------
+# EMAIL CONFIG
+
+# Enable Email Notification (1 = Enable; 0 = Disable)
+EMAIL_ENABLE: 1
+
+# Email Server
+EMAIL_SERVER: 'mail.example.com'
+
+# Email Server Port
+EMAIL_SERVER_PORT: '465'
+
+# Email Subject
+EMAIL_SUBJECT: 'Summary of Ping monitoring for THS Server Room device'
+
+# Email Sender
+EMAIL_FROM: 'admin@example.com'
+
+# Email Receiver
+EMAIL_TO: 'your_email@example.com'

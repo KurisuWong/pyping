@@ -1,0 +1,9 @@
+altgraph==0.17.2
+certifi==2022.5.18.1
+future==0.18.2
+pefile==2022.5.30
+pyinstaller==5.1
+pyinstaller-hooks-contrib==2022.6
+pywin32-ctypes==0.2.0
+PyYAML==6.0
+wincertstore==0.2
